@@ -4,6 +4,8 @@ A quick hack to get the total DOM element count in a small window similar to (_a
 
 I highly recommend you use __ember-browsery-stats__ with this, since I coded the litle stats box to sit to the left of browsery-stats.
 
+![image](http://i.imgur.com/zFM4WdK.gif)
+
 ## Installation
 
 * `ember install:addon ember-cli-dom-stats`
