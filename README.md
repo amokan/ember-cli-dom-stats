@@ -1,12 +1,24 @@
-# Ember-cli-dom-stats
+# ember-cli-dom-stats
 
-This README outlines the details of collaborating on this Ember addon.
+A quick hack to get the total DOM element count in a small window similar to (_and totally based on_) [ember-browsery-stats](https://github.com/stefanpenner/ember-browsery-stats) and [paulirish's memory-stats.js](https://github.com/paulirish/memory-stats.js)
+
+I highly recommend you use __ember-browsery-stats__ with this, since I coded the litle stats box to sit to the left of browsery-stats.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `ember install:addon ember-cli-dom-stats`
+* To conditionally enable this addon only while in development:
+
+```javascript
+// Brocfile.js
+var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+
+var app = new EmberApp({
+  domStats: EmberApp.env() === 'development'
+});
+
+module.exports = app;
+```
 
 ## Running
 

@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-dom-stats",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.1",
+  "description": "quickly display total dom element count",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "https://github.com/amokan/ember-cli-dom-stats",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -35,7 +35,10 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "stats",
+    "dom",
+    "profiler"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
