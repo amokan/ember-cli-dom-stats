@@ -1,10 +1,10 @@
 # ember-cli-dom-stats
 
-A quick hack to get the total DOM element count in a small window similar to (_and totally based on_) [ember-browsery-stats](https://github.com/stefanpenner/ember-browsery-stats) and [paulirish's memory-stats.js](https://github.com/paulirish/memory-stats.js)
+A quick hack to display the total DOM element count and the delta in a small window similar to (_and totally based on_) [ember-browsery-stats](https://github.com/stefanpenner/ember-browsery-stats) and [paulirish's memory-stats.js](https://github.com/paulirish/memory-stats.js)
 
 I highly recommend you use __ember-browsery-stats__ with this, since I coded the litle stats box to sit to the left of browsery-stats.
 
-![image](http://i.imgur.com/zFM4WdK.gif)
+![image](http://i.imgur.com/vBoVfHQ.gif)
 
 ## Installation
 
