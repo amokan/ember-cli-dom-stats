@@ -11,7 +11,7 @@ I highly recommend you use __ember-browsery-stats__ with this, since I coded the
 
 ## Installation
 
-* `ember install:addon ember-cli-dom-stats`
+* `ember install ember-cli-dom-stats`
 * To conditionally enable this addon only while in development:
 
 ```javascript
