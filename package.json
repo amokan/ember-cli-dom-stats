@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-dom-stats",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "quickly display total dom element count",
   "directories": {
     "doc": "doc",
