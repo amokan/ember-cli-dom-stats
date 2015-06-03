@@ -9,6 +9,12 @@ I highly recommend you use __ember-browsery-stats__ with this, since I coded the
 
 ![image](http://i.imgur.com/vBoVfHQ.gif)
 
+## Demo
+
+You can find a very crude demo at [http://ember-cli-dom-stats-demo.divshot.io/](http://ember-cli-dom-stats-demo.divshot.io/)
+
+_The DOM count is displayed on the bottom right of the browser_
+
 ## Installation
 
 * `ember install ember-cli-dom-stats`
